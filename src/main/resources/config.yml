@@ -1,0 +1,8 @@
+general:
+    use-old-engine: false
+filter:
+    - 'First example message'
+    - 'Second example message'
+messages:
+    help: '&cAvailable commands:&6 /csf reload'
+    reload: '&aConfig reload complete!'

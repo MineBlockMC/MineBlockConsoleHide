@@ -1,0 +1,21 @@
+name: ${project.artifactId}
+main: org.mineblock.consolehide.bukkit.BukkitPlugin
+version: ${project.version}
+authors:
+    - CraftersLand
+    - DreamVoid
+    - MineBlock Team.
+load: STARTUP
+description: 隐藏无用的控制台信息
+api-version: 1.13
+commands:
+    consolehide:
+        description: MineBlockConsoleHide 主命令
+        permission: mineblock.command.consolehide
+        aliases:
+            - chide
+            - csf
+permissions:
+    mineblock.command.consolehide:
+        description: 允许使用 /consolehide
+        default: op
